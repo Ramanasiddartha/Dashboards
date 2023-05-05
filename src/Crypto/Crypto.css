@@ -1,0 +1,307 @@
+i.fas.fa-chart-bar {
+  font-size: 1rem;
+}
+.connect-wallet-button {
+  --c: #fff;
+  
+  background: linear-gradient(90deg, #0000 33%, #fff5, #0000 67%) var(--_p,100%)/300% no-repeat,
+    #004dff;
+ 
+  color: #0000;
+  border: none;
+  transform: perspective(500px) rotateY(calc(20deg*var(--_i,-1)));
+  text-shadow: calc(var(--_i,-1)* 0.08em) -.01em 0   var(--c),
+    calc(var(--_i,-1)*-0.08em)  .01em 2px #0004;
+  outline-offset: .1em;
+  transition: 0.3s;
+}
+
+.connect-wallet-button:hover,
+.connect-wallet-button:focus-visible {
+  --_p: 0%;
+  --_i: 1;
+}
+
+.connect-wallet-button:active {
+  text-shadow: none;
+  color: var(--c);
+  box-shadow: inset 0 0 9e9q #0005;
+  transition: 0s;
+}
+
+.connect-wallet-button {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 0;
+  cursor: pointer;
+  padding: .1em .3em;
+}
+.circle {
+  margin: 10px;
+
+  width: 30px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.crypto-card {
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.crypto-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+  background-color: green;
+}
+
+.card1 {
+  background: linear-gradient(to bottom, #06beb6, #48b1bf);
+}
+
+.card2 {
+  background: linear-gradient(to bottom, #cc2b5e, #753a88);
+}
+
+.card3 {
+  background: linear-gradient(to bottom, #de6262, #ffb88c);
+}
+
+.card4 {
+  background: linear-gradient(to bottom, #2193b0, #6dd5ed);
+}
+.cryptotitle {
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin-left: 10px;
+}
+
+.cryptotext {
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin-left: 10px;
+  font-size: large;
+}
+
+.rectangle {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 2px 7px;
+  margin-top: 10px;
+  margin-right: 2px;
+  border-radius: 10px;
+  text-align: center;
+  width: 80px;
+  transition: all 0.3s ease-in-out;
+  color: white;
+}
+
+.rectangle:hover {
+  background-color: #ffffff;
+  cursor: pointer;
+  color: #1a1a1a;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.Graphcard {
+  margin: 10px 0px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+
+  position: relative;
+  min-height: 27px;
+  width: 70%;
+  background-color: linear-gradient(to left, #F7971E, #FFD200);
+}
+
+.Graphcard h2 {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  text-align: left;
+  position: absolute;
+  top: 0;
+  left: 20px;
+}
+
+.Graphcard select {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  color: rgb(26, 22, 22);
+  margin: 1rem;
+  z-index: 1;
+}
+
+.Graphcard select:focus {
+  outline: none;
+  box-shadow: 0px 0px 3px #0070f3;
+}
+
+.Graphcard select option {
+  font-size: 1rem;
+  background-color: white;
+  color: #222;
+}
+
+.Graphcard .chart {
+  width: 50%;
+  height: 30%;
+  position: absolute;
+  top: 20px;
+  left: 0;
+}
+
+.Graphcard .chart-container canvas {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .Graphcard {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Graphcard {
+    margin-left: 41px;
+  }
+}
+
+.crypto-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 10%;
+}
+.crypto-top-card {
+  width: 20%;
+  margin-top: 20px;
+}
+.graph-card-section {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 13.5%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.crypto-side-card {
+  width: 29%;
+  align-self: flex-start;
+  margin-top: 10px;
+  height: 632px;
+}
+.assetcard {
+  height: 250px;
+  width: 70%;
+  background-image: linear-gradient(to bottom, #a83279, #d38312) 
+}
+
+.assetcard .card-title {
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.assetcard table {
+  font-size: 16px;
+  font-family: Roboto, sans-serif;
+}
+
+.assetcard td:first-child {
+  font-weight: bold;
+}
+
+.assetcard td:last-child {
+  color: green;
+}
+
+.assetcard table {
+  margin-top: -15px;
+}
+
+.marketcard {
+  background-color: #f8f9fa;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  font-size: 1.2rem;
+  color: #fff;
+  background-image: linear-gradient(to right, #5f2c82, #49a09d);
+  font-family: 'Open Sans', sans-serif;
+}
+.card-text span{
+  font-size: 23px;
+  color: #ef8e38;
+ 
+}
+.marketcard{
+  text-align: center;
+}
+.marketcard h5 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.marketcard hr {
+  border-top: 1px solid #dee2e6;
+}
+
+.marketcard p,
+.marketcard li {
+  color: #fff;
+}
+
+.marketcard ul {
+  margin-bottom: 20px;
+}
+
+.marketcard li {
+  list-style: none;
+}
+
+.marketcard li::before {
+  content: "•";
+  margin-right: 10px;
+}
+
+.marketcard li:last-child {
+  margin-bottom: 0;
+}
+
+.marketcard .card-text {
+  margin-bottom: 5px;
+}
+
+.marketcard .card-text:last-child {
+  margin-bottom: 0;
+}
+
+.marketcard .positive {
+  color: #28a745;
+}
+
+.marketcard .negative {
+  color: #dc3545;
+}
+
+.loading-spinner-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
