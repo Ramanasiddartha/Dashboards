@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# Dashboard Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project showcases three interactive dashboards: NASA Dashboard, COVID-19 Dashboard, and Crypto Dashboard. Each dashboard provides real-time data and includes loading screens to enhance the user experience.
 
-## Available Scripts
+## Tech Stack
 
-In the project directory, you can run:
+The project is built using the following technologies:
 
-### `npm start`
+- React: A JavaScript library for building user interfaces. It provides a modular and component-based approach to developing web applications.
+- JavaScript: The primary programming language used for the project. JavaScript is a versatile language that enables dynamic and interactive functionality on the web.
+- Bootstrap: A popular CSS framework that provides pre-styled components and a responsive grid system. It helps in creating a visually appealing and mobile-friendly user interface.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## NASA Dashboard
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The NASA Dashboard displays stunning images from NASA's Astronomy Picture of the Day (APOD) API. Users can explore the cosmos through breathtaking images captured by NASA's telescopes and satellites.
 
-### `npm test`
+## COVID-19 Dashboard
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The COVID-19 Dashboard offers up-to-date information on the global COVID-19 pandemic. It visualizes data from reliable sources, such as the World Health Organization (WHO) and the Centers for Disease Control and Prevention (CDC), to provide insights into the current state of the pandemic.
 
-### `npm run build`
+## Crypto Dashboard
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The Crypto Dashboard provides real-time data and market trends for various cryptocurrencies. Users can track the prices, market capitalization, and trading volumes of popular cryptocurrencies, enabling them to make informed decisions in the dynamic crypto market.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To run the project locally, follow these steps:
 
-### `npm run eject`
+1. Clone the repository:
+2. Install the dependencies:
+3. Run the development server:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Project Link**: ((https://dashboard-latest-2000.firebaseapp.com/)https://dashboard-latest-2000.firebaseapp.com/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
